@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Bauhaus Arquitetura</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="logo"><a href="index.html">BAUHAUS <span>ARQUITETURA</span></a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contato.html" class="active">Contato</a></li>
+            </ul>
+            <div class="hamburger"><span class="line"></span><span class="line"></span><span class="line"></span></div>
+        </nav>
+    </header>
+
+    <section class="page-header">
+        <h1 class="reveal">Fale Conosco</h1>
+    </section>
+
+    <section class="contact-section container section-padding">
+        <div class="contact-grid">
+            <div class="contact-form-container reveal">
+                <form id="form-contato">
+                    <div class="input-group">
+                        <input type="text" placeholder="Nome" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" placeholder="E-mail" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="tel" placeholder="Telefone" required>
+                    </div>
+                    <div class="input-group">
+                        <textarea rows="5" placeholder="Sua Mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Enviar Mensagem</button>
+                </form>
+            </div>
+            <div class="contact-info reveal">
+                <h3>Informações</h3>
+                <p><strong>Endereço:</strong> Taubaté – SP</p>
+                <p><strong>Telefone:</strong> (12) 99999-9999</p>
+                <p><strong>E-mail:</strong> contato@bauhausarquitetura.com</p>
+                <div class="map-container">
+                    <!-- Google Maps Iframe (Taubaté) -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58752.12871141753!2d-45.59468925!3d-23.0197479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccf90769d65949%3A0x88f5728a30366184!2sTaubat%C3%A9%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
